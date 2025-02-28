@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+box-sizing: border-box;
+font-family: "Poppins", serif;
+
+    }
+body{
+
+ margin: 0;
+ padding: 0;
+background-color: white;
+    }
+ .home{
+display: flex;
+ background: #bfe2fcdc;
+ height: 40px;
+justify-content: left;
+padding-right: 16px;
+display: none;
+
+
+    }
+.senai{
+list-style-type: none;
+display: inline-block;
+padding-left: 10px;
+
+
+
+    }
+.senai a{
+ display: flex;
+color:white;
+text-decoration: none;
+font-size: 14px;
+
+
+
+} .senai a:hover{
+        color:black;
+    }
+.home img{
+ margin-left: 20px;
+border-left: 1px solid white;
+padding-left: 10px;
+width: 30px;
+
+    }
+.foto{
+ width:160px;
+z-index: 1001;
+margin-left: 20px;
+margin-top:10px;
+}
+.menu{
+background: #006bb7;
+justify-content:center;
+text-align: center;
+align-items: center;
+display: flex;
+height: 80px;
+border-bottom: 3px solid #006bb7;   
+}
+.itens{
+list-style-type: none;
+display: inline-block;
+padding: 10px;
+
+    
+}
+.itens a {
+ display: inline-block;
+color: white;
+text-decoration: none;
+font-size: 18px;
+font-family: "Montserrat", serif;
+margin-top:45px;
+     
+ }
+.itens a:hover{
+color:rgba(15, 15, 235, 0.786) ;
+background: #00244d;
+border-radius: 50px;
+color: white;
+justify-content: center;
+border: 1px solid rgba(0, 72, 154, 0.5);
+padding: 8px 20px ;
+        
+}
+.cursos1{
+    
+    color: #006bb7;
+    border:1px solid white;
+    padding:2px 12px;
+    border-radius:20px;
+}
+.lupa{
+    width: 25px;
+    height: 25px;
+    margin-bottom:-10px;
+    margin-left: 30px;
+   
+    
+}
+
+
+.aluno{
+  
+    float: right;
+    margin-top: 15px;
+    margin-left: 20px;
+    border-radius: 40px solid white;
+    color: black;
+    padding: 8px;
+   font-size: 13px;
+}
+.aluno a {
+   
+    text-decoration: none;
+    padding:5px;
+    font-size: 20px;
+    color: black;
+    font-family: "Montserrat", serif;
+}
+    
+
+.fotoprincipal img{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   margin: 0 auto;
+    width:1400px;
+    height:480px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.itenscursos{
+       
+        list-style-type: none;
+        display: inline-block;
+        height: 230px;
+        width: 18%;
+        margin: 3px;
+      text-align:center;
+      align-items: center;
+      display: none;
+     
+      
+    
+    
+}
+.itensmenu{
+
+padding: 20px;
+list-style-type: none;
+display: inline-block;
+height: 190px;
+width: 18%;
+margin: 5px;
+text-align:center;
+align-items: center;
+display: none;
+
+
+
+}
+.itensmenu a{
+    text-decoration: none;
+    font-size: 16px;
+    color:black;
+   
+}
+.adm,.tecnologia,.energia,.metalmecanica,.automacao{
+    width:145px;
+    height: 145px;
+   
+    
+   
+}
+.categorias{
+    font-size: 40px;
+    justify-content:center;
+     display: flex;
+     color: black;
+    padding-top: 20px;
+    color: black;
+  text-decoration: none;
+  display: none;
+  
+
+
+}
+.matriculas{
+    width: 1300px;
+    height: 500px;
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px;
+  text-align:center;
+  margin-bottom: 60px;
+
+
+ 
+}
+.menucursos{
+    justify-content: space-between;
+  justify-content: space-around;
+    list-style-type: none;
+    display: inline-block;
+    height: 360px;
+    width: 260px;
+    margin: 22px; 
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 
+}
+.menucursos a{
+    text-decoration: none;
+    font-size: 23px;
+    color: black;
+
+ 
+   
+}
+.Python,.confeiteiro,.rh,.qualidade{
+    width:260px;
+    height: 170px;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+.abertas{
+    font-size: 40px;
+    justify-content:left;
+     display: flex;
+     color: black;
+     margin-left: 100px;
+    padding-top: 20px;
+    color: black;
+    
+  
+}
+.ead{
+    width: 30px;
+    height:30px;
+margin-right: 10px;
+
+}
+.conteudo,.conteudo1,.conteudo2,.conteudo3{
+
+text-align: justify;
+   font-size: 10px;
+   justify-content: center;
+   margin: 4px;
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-top:10px;
+}
+.todoscursos{
+    color: black;
+    font-size: 16px;
+  border-radius: 30px;
+  border: none;
+  padding: 10px;
+  background-color: #fcc530;
+
+   
+}
+.botao{
+    border: none;
+    border-radius: 20px;
+    color:black;
+    background-color: #fcc530;
+    padding: 5px;
+    width: 72px;
+    height: 30px;
+    float: right;
+    margin-right: 20px;
+   
+}
+
+.conteudonoticias{
+    font-size: 60px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.hero{
+    display: flex;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 2%;
+    background:#006bb7
+    ;
+    color: white;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  
+    
+}
+.ladomateria1{
+    width: 1100px;
+    height: 900px;
+    justify-content: center;
+    align-items: center;
+  
+  
+
+
+}
+.ladomateria2{
+    display:flex;
+    width: 35px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+  flex-wrap: nowrap;
+ flex-flow: row wrap;
+  
+  margin-top: 130px;
+
+}
+.materia img{
+    width: 230px;
+    height: 170px;
+    align-items: center;
+    border-radius: 30px;
+    margin-right: 480px;
+    margin-bottom: 10px;
+    
+
+  
+}
+.materia1 img{
+    width: 800px;
+    height: 600px;
+    border-radius: 30px;
+    margin-right: 100px ;
+
+
+
+   
+}
+.materia2{
+    margin-left: 35px;
+    font-size: 23px;
+    
+    
+}
+.materia1{
+    list-style-type: none;
+}
+.materia{
+    list-style-type: none;
+   
+ 
+}
+
+.materia a{
+    text-decoration: none;
+    color: white;
+    text-align: justify;
+   font-size: 16px;
+   justify-content: center;
+
+ 
+}
+.conteudomateria1{
+  display: flex;
+    justify-content:flex-start;
+     align-items: center;
+    float:center;
+    flex-wrap: nowrap;
+    margin:auto;
+   width: 200px;
+   margin-left: 13px;
+   line-height: 14px;
+   margin-bottom: 10px;
+   
+   
+ 
+ 
+
+
+    
+}
+.educa {
+    display: flex;
+    max-width: 1300px;
+    margin: 0 auto;
+    color: black;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imagem img{
+    width:700px;
+    height: 500px;
+    margin: 0 auto;
+    align-items: center;
+}
+.texto{
+    width: 35%;
+    height: 500px;
+    align-items: center;
+    margin: 0 auto;
+}
+.texto h1{
+    font-size: 40px;
+    color: black;
+
+}
+.texto p{
+    font-size: 18px;
+    line-height: 40px;
+    padding-top: 50px;
+    color: black;
+}

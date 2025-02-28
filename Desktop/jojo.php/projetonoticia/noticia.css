@@ -1,0 +1,619 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #0f172a;
+    
+}
+.hero{
+
+    width: 1300px;
+    height: 72px;
+    display:flex;
+    padding: 20px;
+    justify-content:center;
+    align-items: center;
+
+    
+
+   
+
+
+}
+.hero h1{
+    
+    color: #60A5FA;
+    width: 160px;
+    height: 24px;
+    top: 4px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400px;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+
+}
+.menu{
+   color: #F1F5F9;
+    display: flex;
+    width: 43px;
+    height: 20px;
+    font-family: Archivo;
+   font-weight: 700px;
+    font-size: 16px;
+    line-height: 22.4px;
+    letter-spacing: 0%;
+    text-align: center;
+    gap: 8px;
+
+ 
+
+
+
+}
+.menu img{
+width: 20px;
+height: 20px;
+border: 1px solid #000000;
+box-shadow: 0px 4px 4px 0px #00000040;
+
+
+
+
+
+}
+.busca{
+    color: #F1F5F9;
+    display: flex;
+    width: 55px;
+   height: 20px;
+   font-family: Archivo;
+   font-weight: 700px;
+   font-size: 16px;
+   line-height: 22.4px;
+   letter-spacing: 0%;
+   text-align: center;
+padding-right: 90px;
+align-items: center;
+
+
+}
+.busca img{
+    width: 20px;
+    height: 20px;
+    padding-left: 5px;
+}
+.conteudosmenu{
+width: 1400px;
+height: 48px;
+justify-content: space-between;
+background-color: #1E293B;
+display: flex;
+text-align: center;
+align-items: center;
+
+}
+.conteudos{
+font-family: Archivo;
+font-weight: 600px;
+font-size: 14px;
+line-height: 20.3px;
+letter-spacing: 0%;
+color: #CBD5E1;
+list-style-type: none;
+display: inline-block;
+padding: 40px;
+
+}
+.parte1{
+ width: 1216px;
+height: 416px;
+gap: 16px;
+
+flex-wrap: nowrap;
+justify-content: space-between;
+margin: 0 auto;
+display: flex;
+padding: 0 2%;
+margin-top: 40px;
+
+
+}
+.componentes{
+    width: 592px;
+    height: 416px;
+    
+    display: flex;
+    flex-wrap: nowrap;
+    flex-flow: row wrap;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+  flex-wrap: nowrap;
+ flex-flow: row wrap;
+
+  
+}
+.robotica h6{
+    width: 600px;
+    height: 96px;    
+    font-family: Archivo;
+    font-weight: 800px;
+    font-size: 23px;
+    line-height: 32.9px;
+   color: #F1F5F9;
+   letter-spacing: 0%;
+   
+   margin-top:300px;
+   position: absolute;
+ 
+  
+
+ 
+}
+.robotica{
+width: 608px;
+height: 416px;
+top: 208px;
+gap: 8px;
+display: flex;
+justify-content: center;
+align-items: center;
+background: linear-gradient(180deg, rgba(2, 6, 23, 0) 0%, #020617 100%);
+background-image: url(robotica.png);
+background-size: cover;
+
+
+
+}
+.botaorobotica{
+    width: 93px;
+    height: 20px;
+    gap: 8px;
+    border-radius: 4px;
+    background-color: #1D4ED8;
+    box-shadow: 0px 4px 16px 0px #02061740;
+    font-family: Archivo;
+    font-weight: 500px;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 4%;
+    color: #F1F5F9;
+    text-align: center;
+    margin-top: 90px;
+    margin-right: 500px;
+    border: none;
+    position: relative;
+    
+
+
+
+}
+.Hologramas{
+    width: 288px;
+    height: 200px;
+    gap: 8px;
+    background: linear-gradient(180deg, rgba(2, 6, 23, 0) 0%, #020617 100%);
+    background-image: url(holograma.png);
+    background-size: cover;
+    border-radius: 4px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-flow: row wrap;
+    display: flex;
+   
+
+   
+}
+.Hologramas h6,.internet h6,.vestiveis h6,.realidadevirtual h6{
+width: 264px;
+height: 60px;
+font-family: Archivo;
+font-weight: 800px;
+font-size: 14px;
+line-height: 19.6px;
+letter-spacing: 0%;
+color: #F1F5F9;
+margin: 0 auto;
+overflow: initial;
+margin-bottom: 30px;
+
+
+}
+.botaoholograma,.botaointernet,.botaovestiveis{
+width: 93px;
+height: 20px;
+gap: 8px;
+border-radius: 4px;
+background-color: #1D4ED8;
+box-shadow: 0px 4px 16px 0px #02061740;
+font-family: Archivo;
+font-weight: 500px;
+font-size: 10px;
+line-height: 12px;
+letter-spacing: 4%;
+color: #F1F5F9;
+text-align: center;
+margin-top: 90px;
+margin-right: 180px;
+border: none;
+
+
+}
+.botaovirtual{
+    width: 124px;
+    height: 20px;
+    gap: 8px;
+    border-radius: 4px;
+    background-color: #1D4ED8;
+    box-shadow: 0px 4px 16px 0px #02061740;
+    font-family: Archivo;
+    font-weight: 500px;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 4%;
+    color: #F1F5F9;
+    text-align: center;
+    margin-top: 90px;
+    margin-right: 180px;
+    border: none;   
+}
+.internet{
+width: 288px;
+height: 200px;
+gap: 8px;
+background: linear-gradient(180deg, rgba(2, 6, 23, 0) 0%, #020617 100%);
+background-image: url(internet.png);
+background-size: cover;
+border-radius: 4px;
+justify-content: center;
+text-align: center;
+align-items: center;
+flex-wrap: nowrap;
+flex-flow: row wrap;
+display: flex;
+
+}
+.vestiveis{
+width: 288px;
+height: 200px;
+gap: 8px;
+background: linear-gradient(180deg, rgba(2, 6, 23, 0) 0%, #020617 100%);
+background-image: url(vestigio.png);
+background-size: cover;
+justify-content: center;
+text-align: center;
+align-items: center;
+flex-wrap: nowrap;
+flex-flow: row wrap;
+display: flex;
+}
+.realidadevirtual{
+
+width: 288px;
+height: 200px;
+gap: 8px;
+background: linear-gradient(180deg, rgba(2, 6, 23, 0) 0%, #020617 100%);
+background-image: url(virtual.png);
+background-size: cover;
+border-radius: 4px;
+justify-content: center;
+text-align: center;
+align-items: center;
+flex-wrap: nowrap;
+flex-flow: row wrap;
+display: flex;
+} 
+.parte2{
+width: 1216px;
+height: 314px;
+gap: 24px;
+padding-bottom: 24px;
+margin: 0 auto;
+margin-top: 80px;
+display: flex;
+flex-wrap: nowrap;
+flex-flow: row wrap;
+gap: 16px;
+justify-content: center;
+align-items: center;
+flex-wrap: nowrap;
+flex-flow: row wrap;
+border-top:1px solid  #1E293B;
+
+}  
+.lidos{
+    color:#CBD5E1;
+    display: flex;
+    width: 138px;
+    height: 20px;
+    font-family: Archivo;
+   font-weight: 600px;
+    font-size: 14px;
+    line-height: 20.3px;
+    letter-spacing: 0%;
+    padding-right: 990px;
+    margin-top: 20px;
+    
+   
+   
+   
+
+}
+.todos{
+    color: #CBD5E1;
+    display: flex;
+    width: 54px;
+   height: 20px;
+   font-family: Archivo;
+   font-weight: 600px;
+   font-size: 14px;
+   line-height: 20.3px;
+   letter-spacing: 0%;
+   text-align: center;
+   flex-flow: row wrap;
+   margin-top: 20px;
+ 
+}
+.todos img{
+    width: 16px;
+    height: 16px;
+    color: #CBD5E1;
+   
+
+    
+}
+.noticias{
+    width: 1216px;
+    height: 234px;
+    gap: 16px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    display: flex;
+    padding: 0 2%;
+    margin-top: 40px;
+    
+}
+.veiculos ,.hologramasnoticias ,.virtualnoticias ,.internetnoticias {
+    
+width: 292px;
+height: 234px;
+gap: 8px;
+justify-content: center;
+text-align: center;
+align-items: center;
+flex-wrap: nowrap;
+flex-flow: row wrap;
+display: flex;
+
+
+}
+.veiculos h6,.hologramasnoticias h6,.virtualnoticias h6,.internetnoticias h6{
+    width: 292px;
+    height: 66px;
+    font-family: Archivo;
+    font-weight: 800px;
+     font-size: 16px;
+   line-height: 22.4px;
+   letter-spacing: 0%;
+    color: #F1F5F9;
+    justify-content: center;
+    text-align: justify;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-flow: row wrap;
+    display: flex;
+    margin: 0 auto;
+    overflow: initial;
+
+}
+.veiculos img,.hologramasnoticias img,.virtualnoticias img,.internetnoticias img{
+
+ width: 292px;
+height: 160px;
+display: flex;
+margin: 0 auto;
+position: relative;
+
+
+}
+.botaoveiculos,.botaohologramasnoticias,.botaovirtualnoticias,.botaointernetnoticias{
+    width: 93px;
+    height: 20px;
+    gap: 8px;
+    border-radius: 4px;
+    background-color: #1D4ED8;
+    box-shadow: 0px 4px 16px 0px #02061740;
+    font-family: Archivo;
+    font-weight: 500px;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 4%;
+    color: #F1F5F9;
+    text-align: center;
+    margin-bottom: 200px;
+    margin-right: 180px;
+    border: none;  
+    position: absolute;
+
+    
+}
+.virtualnoticias{
+    width: 292px;
+    height: 234px;
+    gap: 8px;
+}
+.internetnoticias{
+    width: 292px;
+    height: 234px;
+    gap: 8px;
+}
+.parte3{
+width: 1216px;
+height: 856px;
+gap: 32px;
+padding-bottom: 24px;
+margin: 0 auto;
+margin-top: 80px;
+display: flex;
+flex-wrap: nowrap;
+flex-flow: row wrap;
+gap: 16px;
+justify-content: space-between;
+align-items: center;
+flex-wrap: nowrap;
+flex-flow: row wrap;
+border-top:1px solid  #1E293B;
+padding: 0 2%;
+
+
+  
+    
+}
+.noticia1,.noticia2,.noticia3,.noticia4{
+    width: 696px;
+    height: 176px;
+    gap: 16px;
+   top: 208px;
+   gap: 8px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+
+    
+    
+
+}
+.noticia1 img,.noticia2 img,.noticia3 img,.noticia4 img{
+   
+    width: 176px;
+    height: 176px;
+
+}
+.noticia1 h2,.noticia2 h2,.noticia3 h2,.noticia4 h2{
+width: 504px;
+height: 44px;
+font-family: Archivo;
+font-weight: 800;
+font-size: 16px;
+line-height: 22.4px;
+letter-spacing: 0%;
+color: #F1F5F9;
+text-align: justify;
+align-items: center;
+justify-content:center;
+display: flex;
+flex-flow: row wrap;
+position: absolute;
+margin-right: 180px;
+margin-bottom:90px;
+
+}
+
+.titulo{
+    color:#CBD5E1;
+    display: flex;
+    width: 138px;
+    height: 20px;
+    font-family: Archivo;
+   font-weight: 600px;
+    font-size: 14px;
+    line-height: 20.3px;
+    letter-spacing: 0%;
+    margin-top: 20px;
+    margin: 0 auto;
+   margin-right: 990px ;
+   justify-content: space-between;
+   flex-flow: row wrap;
+    
+
+}
+.todonoticia{
+    color: #CBD5E1;
+    display: flex;
+    width: 54px;
+   height: 20px;
+   font-family: Archivo;
+   font-weight: 600px;
+   font-size: 14px;
+   line-height: 20.3px;
+   letter-spacing: 0%;
+   text-align: center;
+   flex-flow: row wrap;
+   margin-top: 20px;  
+   margin: 0 auto;
+}
+.todonoticia img{
+    width: 16px;
+    height: 16px;
+    color: #CBD5E1; 
+}
+.controle3{
+    width: 696px;
+    height: 856px;
+    gap: 24px;
+    margin: 0 auto;
+    margin-bottom: 90px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+   
+}
+.botaodestaqueinteligencia{
+width: 162px;
+height: 20px;
+gap: 8px;
+border-radius: 4px;
+background-color: #1D4ED8;
+box-shadow: 0px 4px 16px 0px #02061740;
+font-family: Archivo;
+font-weight: 500px;
+font-size: 10px;
+line-height: 12px;
+letter-spacing: 4%;
+color: #F1F5F9;
+text-align: center;
+border: none;
+padding-left: 10px;
+padding-right: 20px;
+position: relative;
+margin-bottom: 150px;
+margin-right: 320px;
+
+}
+.noticia1 h6,.noticia2 h6,.noticia3 h6,.noticia4 h6{
+    width: 504px;
+    height: 88px;
+    font-family: Archivo;
+   font-weight: 400px;
+   font-size: 10px;
+   line-height: 22.4px;
+   letter-spacing: 0%;
+   color: #CBD5E1;
+   text-align: justify;
+   align-items: center;
+   justify-content:space-between;
+   flex-flow: row wrap;
+   position: absolute;
+   margin-top: 110px;
+   margin-right: 180px;
+   
+  
+
+
+}
