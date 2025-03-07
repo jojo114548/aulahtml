@@ -1,0 +1,78 @@
+
+*{ padding: 0;margin: 0;
+    box-sizing: border-box;
+    
+}.body{width:100%;height:100vh;
+    left:0;top:0;right: 0;bottom: 0;
+    background-image: url(https://s3-alpha-sig.figma.com/img/3ac0/e83b/0666d509cef826d10ee20c5980e28a6f?Expires=1740355200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Rbk0EJGpkA6nBfPEMM5U1PGc3eWaoOSVvzD3mb~j2zpIJNPHBpFYIwOskcKbxg40Vlkomk7GV0KomHyNDkEXzjZZ1DLajsl5N1Wv8~mJp4R9ya4g1ZPtq8-vWOAFojYDI8DdUqk-6b2VWXKepWzu2H4L1b3S8W1ZzGqOh1I~4mHez9p-LrP~wj8RVQeVYSaHV49iw96GyMugv2LHDNraI1TFwEu6KokzVkGr0AdDCu9suIf4rLxP51lNETSoo573s4GdWcIuOIwM22fBHeXJX1RvdmA2XqNRGzlNMh~hwZlPZ~VYGqbmyuN6Pdc8fGCf8Q1ZeCViOJuOGii30hxaIg__);
+    background-size: cover;
+  background-position:center;
+  justify-content: center;
+  backdrop-filter: blur(10px);
+  position: relative;
+  display: flex;
+  padding-top: 20px;
+
+
+
+ 
+
+}body::before{
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(100,33,33, 0.404);
+    z-index: -1;
+    backdrop-filter: blur(10px);
+}
+.esqueleto{font-family: "Alice";
+    width: 800px;
+    height: 1250px;
+    border-radius: 24px;
+    padding:25px  25px;
+    background-color:#f0e8c2;
+    
+    
+    
+}
+.paragrafo1{font-family: "Alice";
+    font-size: 15px;
+    font-weight: auto;color: #573a37;
+    padding-bottom: 10px
+    ;
+}
+.paragrafo2{font-family: "Alice";
+    font-size: 15px;
+    font-weight: auto;color: #573a37;
+   
+    ;
+}
+.paragrafo3{font-family: "Alice";
+        font-size: 15px;
+        font-weight: auto;color: #573a37;
+        ;
+    }
+.menu{font-family: "Alice";
+    font-size: 15px;
+    font-weight: auto;color: #573a37;
+    padding-left: 25px;
+}
+.nome{font-family: "Alice";
+    font-size: 40px;
+    font-weight: auto;padding: 10px 0px;}
+.sobre1{font-family: "Alice";
+    font-size: 25px;
+    font-weight: auto;color: #291b1a;
+padding-top: 10px;
+padding-bottom: 10px;}
+.sobre2{font-family: "Alice";
+        font-size: 25px;
+        font-weight: auto;color: #291b1a;
+        padding-top: 10px;
+        padding-bottom: 10px;}
+.img{width: 752px;
+    border-radius: 16px;
+}
