@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form >
+        <label >Digite a quantidades de horas trabalhadas no mês:</label>
+        <input type="text" class="quantidade">
+        <label >Qual o valor da hora ?</label>
+        <input type="text" class="valor">
+        <button onclick="salario()">Calcular</button>
+    </form>
+
+    <script>
+        function salario(salariobruto){
+            var dias=parseFloat(document.querySelector("input.quantidade").value);
+            var horas=parseFloat(document.querySelector("input.valor").value);
+            var salariobruto=dias*horas;
+            
+            var IR=0;
+            var INSS=salariobruto*0.10;
+            var FGTS=salariobruto*0.11;
+            var totaldesconto=0;
+            var salarioliquido=0;
+           
+      
+
+          
+            if(salariobruto<=900){
+               
+                IR=salariobruto*1.0;
+                totaldesconto=IR+INSS;
+                salarioliquido=salariobruto-totaldesconto;
+                
+                alert("Salario Bruto:R$ "+salariobruto+"\n(-)IR(5%) R$ $"+IR+"\n(-)INSS(10%) R$ "+INSS+"\nFGTS(11%) R$ "+FGTS+"\nTotal de descontos R$ "+totaldesconto+"\nsalario liquido  R$ "+salarioliquido);
+   
+            }
+            else if(salariobruto>900&&salariobruto<=1500){
+                IR=salariobruto*0.05;
+                totaldesconto=IR+INSS;
+                salarioliquido=salariobruto-totaldesconto;
+                
+                alert("Salario Bruto:R$ "+salariobruto+"\n(-)IR(5%) R$ $"+IR+"\n(-)INSS(10%) R$ "+INSS+"\nFGTS(11%) R$ "+FGTS+"\nTotal de descontos R$ "+totaldesconto+"\nsalario liquido  R$ "+salarioliquido);
+            }
+            else if(salariobruto>1500&&salariobruto<=2500){
+                IR=salariobruto*0.10;
+                totaldesconto=IR+INSS;
+                salarioliquido=salariobruto-totaldesconto;
+               
+                alert("Salario Bruto:R$ "+salariobruto+"\n(-)IR(5%) R$ $"+IR+"\n(-)INSS(10%) R$ "+INSS+"\nFGTS(11%) R$ "+FGTS+"\nTotal de descontos R$ "+totaldesconto+"\nsalario liquido  R$ "+salarioliquido);
+            }
+            else if(salariobruto >2500){
+                IR=salariobruto*0.20;
+                totaldesconto=IR+INSS;
+                salarioliquido=salariobruto-totaldesconto;
+               
+
+                alert("Salario Bruto:R$ "+salariobruto+"\n(-)IR(5%) R$ $"+IR+"\n(-)INSS(10%) R$ "+INSS+"\nFGTS(11%) R$ "+FGTS+"\nTotal de descontos R$ "+totaldesconto+"\nsalario liquido  R$ "+salarioliquido);
+            }
+
+        }
+    </script>
+</body>
+</html>

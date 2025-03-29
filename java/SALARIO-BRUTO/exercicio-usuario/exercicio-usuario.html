@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+
+        <h1>Convidados</h1>
+
+        <form id="formulario">
+            <input type="text" placeholder="Digite seu nome" id="name">
+            <button id="btn1" onclick="adicionar()">Adicionar</button>
+        
+        </form>
+        <ul>
+           
+        </ul>
+    
+    
+    </main>
+   <script>
+
+    
+
+
+function adicionar(){
+
+const nome=document.querySelector("#name").value;
+
+
+const guests=document.querySelector("ul")
+const newguest=document.createElement("li")
+const guestName=document.createElement("span")
+guestName.textContent=nome
+newguest.appendChild(guestName)
+guests.append(newguest)
+
+
+
+
+}
+const form=document.getElementById("formulario")
+form.addEventListener("submit",function(event){
+event.preventDefault();
+
+})
+   </script>
+    
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form >
+        <label >Qual turno você estuda ?</label>
+        <input type="text" class="op">
+        <button onclick="validar()">Enviar</button>
+    </form>
+
+    <script>
+        function validar(){
+            var x=document.querySelector("input.op").value;
+        
+            switch(x){
+                case "m":alert("bom dia");
+                break
+            
+            case "t":alert("boa tarde");
+            break
+            case "n":alert("boa noite");
+         break
+            }
+          
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+box-sizing: border-box;
+}
+
+body{
+    background:rgb(253, 244, 244);
+    margin: 0;
+    padding: 0;
+}
+ .topo{
+  display: flex;
+  background: #00244dde;
+  height: 45px;
+justify-content: right;
+padding-right: 20px;
+
+ 
+}
+.senai{
+    list-style-type: none;
+display: inline;
+padding: 10px;
+
+
+}
+.senai a{
+    display: inline-block;
+    color:white;
+    text-decoration: none;
+  font-size: 20px;
+
+ 
+}
+.senai a:hover{
+    color:black;
+}
+.itens{
+list-style-type: none;
+display: inline-block;
+padding: 10px;
+margin-bottom: 0px;
+
+}
+.menu{
+    background: white;
+ justify-content:center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    height: 146px;
+    border-bottom: 7px solid #1d5ba1de;
+
+ 
+
+   
+}
+.itens a {
+    display: inline-block;
+    padding: 30px;
+    color: black;
+    text-decoration: none;
+    font-size: 23px;
+    font-family: "Montserrat", serif;
+    margin-top:70px;
+ 
+}
+.itens a:hover{
+    color:rgba(15, 15, 235, 0.786) ;
+    background: #00244d;
+    border-radius: 50px;
+color: white;
+justify-content: center;
+border: 1px solid rgba(0, 72, 154, 0.5);
+padding: 8px 20px ;
+    
+}
+
+.foto{
+    width:250px;
+    z-index: 1001;
+    margin-right: 20px;
+    margin-top:10px;
+   
+
+  
+}
+
+.content{
+    margin-top:15px;
+  
+}
+.content img{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+ 
+    margin-left:420px;
+    width:70%;
+    height: 60%;
+
+} 
+.titulo{
+    justify-content:center;
+    text-align: center;
+    align-items: center;
+   font-size: 70px;
+   font-family: "Montserrat", serif;
+  color: #25548a;
+  
+
+}
+.acessibilidade img{
+    width: 80px;
+    border-radius: 30px;;
+    float: right;
+    display: flex;
+  
+    
+}
+.cursos2{
+background: white;
+width: 100%;
+height:10%;
+
+
+
+
+
+}
+.menucursos{
+background: white;
+display: inline-block;
+padding-left: 250px;
+ 
+
+
+ }
+ .itenscursos a{
+list-style-type: none;
+ text-decoration: none;
+ display:inline-block;
+ text-align: center;
+  margin-bottom: 60px;
+  text-align: center;
+  
+ }
+ .itenscursos{
+list-style-type: none;
+display:inline-block;
+background:#ccc;
+width: 250px;
+height: 250px;
+margin: 12px ;
+font-family: "Montserrat", serif;
+font-size: 24px;
+text-align: center;
+
+
+
+
+
+
+ }
+.itenscursos  img{
+
+   background-size: cover;
+}
+ 
+.topo img{
+margin-left: 20px;
+border-left: 1px solid white;
+padding-left: 10px;
+
+}
+
+.lupa{
+    width: 35px;
+    height: 35px;
+    margin-bottom:-5px;
+    
+}
+.aluno1{
+    width: 35px;
+    height: 35px;
+    float: right;
+  
+  
+}
+.aluno{
+  
+    list-style-type: none;
+    float: right;
+    margin-top: 100px;
+    margin-left: 50px;
+    border-left: 5px solid black;
+}
+.aluno a {
+   
+    text-decoration: none;
+    padding: 20px;
+    font-size: 27px;
+    color: black;
+    font-family: "Montserrat", serif;
+}
+
+.evolucao{
+    background: #00244d;
+}
+.estude{
+    width: 30%;
+    height: 800px;
+  border-radius: 50px;
+
+}
+.inovar{
+    width:10%;
+    height: 800px;
+    border-radius: 50px;
+}
+.sobre{
+    width:10%;
+    height: 800px;
+    border-radius: 50px;
+}
+.jovem{
+    width:10%;
+    height: 800px;
+    border-radius: 50px;
+}

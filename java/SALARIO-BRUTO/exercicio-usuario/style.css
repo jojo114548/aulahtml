@@ -1,0 +1,54 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #303030;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("download\ \(1\).jpg");
+
+  
+}
+h1,h2{
+    color: #fff;
+    margin: 32px 0;
+    text-align: center;
+    font-size: 40px;
+
+
+}
+form{
+    margin-top: 80px;
+    min-width:510px;
+    display: flex;
+    gap: 12px;
+  
+
+}
+li{
+    margin-top: 30px;
+    color: aliceblue;
+   list-style: none;
+}
+.input-error,
+.input-error:focus{
+    border-color: red;
+}
+button{
+    background-color: blueviolet;
+   margin-right: 100px;
+}
+main{
+    background-color: #2f3279;
+    height: 700px;
+    border-radius: 24px;
+    border: 1px solid white;
+}
+input{
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    width: 250px;
+    height: 20px;
+}

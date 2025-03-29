@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form >
+        <div class="nome">
+            <label >Digite um ano para verificar se é bissexto </label>
+            <input type="text" name="numero">
+            <button onclick="verificar()">Enviar</button>
+        </div>
+        
+    </form>
+   <script >
+    function verificar(){
+        var num=document.querySelector("input[name=numero]").value;
+        if(num%4==0 && num%100!=0||num%400==0){
+           alert("ANO BISSEXTO")
+        }
+        else{
+            alert("NÃO É BISSEXTO")
+        }
+    }
+   </script> 
+</body>
+</html>

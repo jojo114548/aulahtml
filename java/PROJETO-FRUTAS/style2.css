@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+   
+
+*{color: #A54328;
+    font-family: "Source Sans 3", serif;
+    
+    }
+    
+
+    body{
+    background-image: url(https://s3-alpha-sig.figma.com/img/6597/0732/27b775104e016b33024ed903e8b6324f?Expires=1740355200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=jHRWiLl1wTYXwAg29QrfvWRGTGWwU511NkiNkbivN5ku6l8rjZ1XSxHBXNCu0iNb7U15uF0oDYB2W~9zKdrvYkDII9FDAbNCSZpSrMmON5~13TSV1vj~YkOwSTgZnY9~EQKEYMUbywp7UXuADfS8gZMVu4Z5Qt3m7BhT~PmixF4m8iwlX4SuSdlsQMahjzeRwlvCuCwwxvPeGaXnc3yy9z2O73-Vv5JjWaDCG5eMdleivZ31dcSRwHa3DPEpkuB6DuG6j7JFaRHirTYiz0Sq~0XbKkMVYuUTJbpdN9NMUHVDHvYALCg53niaHViGuBwIJvWSSPvdZSdYmVNfqdEDDg__);
+    background-size: cover;
+    background-position:center;
+    justify-content: center;
+    align-items: center;
+    
+}
+.esqueleto{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100vh;     
+    height: 100vh;
+    margin-top: 200px;
+    }
+
+
+img{width: 411px;
+height: 243.7px;
+float: left;
+padding: 150px 150px;}
+
+.paragrafo1{float: left;
+text-align:justify;
+width: 435px;
+height: 642.7px;
+position: absolute;
+padding-top: 30%;
+margin-left: 150px;
+font-size: 20px;
+}
+
+.botao{
+    text-decoration: none;
+    background-color:#A54328 ;
+    color: white;
+    width: 133px;
+    height: 45px;
+    gap: 24px;
+    padding: 10px 15px ;
+    border-radius: 10px ;
+
+
+}
+.nome{
+ position: absolute;
+ margin-left: 200px;
+}
+
+.sobre1{
+    padding: 5px;
+}
+.ingrediente{
+    font-size: 20px;  
+  
+}
+.rexeita{
+    padding: 2px;
+    font-size: 20px;
+}
+.receita2{
+    padding: 3px;
+    font-size:20px;
+    margin-left: 680px;
+    text-align:left;
+  
+}
+.botaopai{
+    padding: 30px;
+    font-size: 20px;
+    margin-left:670px;
+}
+.modo{
+    font-size: 20px;
+    }

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="aula10.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container "style="background: #FFFFFF;width: 700px;box-shadow: 0px 4px 4px 0px #00000040; ">
+
+    <div class="card mb-3 " style=" background: #F9A4744D;width: 100%;">
+      <h5 class="card-title text-center mt-5" style="font-size: 40px;font-family: Schoolbell;font-weight: 400px;"><img style="width: 60px;height: 60px;margin: 0 auto;" src="estrela.png" alt="estrela">Estrelas do Amanhã</h5>
+      <img class="img-fluid" style="width: 100%;"  src="Illustration.png" alt="foto-principal">
+ </div>
+    <div class="container m-auto mt-5" style="max-width: 1000px;">
+    <span class="ms-3 " style="width: 50px;height: 50px;font-size: 30px;font-weight: 400px;font-family: poppins;color: #57534E"><img class="m-auto" style="width: 40px;height: 40px;color: #57534E" src="setabot.png" alt="seta">Voltar</span>
+     <div class="conteudo-central">
+      
+        <h1 class="text-uppercase text-center mt-4" style="font-size:35px;font-weight:600px;width: 670px;">Formulário de matrícula</h1>
+        <h3 class=" text-lowercase m-auto mt-5 ms-5" style="font-family: Poppins;width: 600px;height: 76px;font-size: 30px;justify-content: left;line-height: 40px; color: #57534E;
+;">Preencha os dados abaixo para matricular seu filho na escola de educação infantil Estrelas do Amanhã.</h3>
+     </div>
+     <form class="row g-3 mt-5">
+        <div class="row">
+            <h2 class="col-12 mt-5 ms-5 " style="font-size: 30x;">Informações da criança</h2>
+          
+          </div>
+         
+        <div class="col-12 ms-5">
+            <label for="inputnome" class="form-label col-12 " style="color: #57534E;">Nome completo</label>
+            <input type="text" class="form-control-lg col-10  text-secondary bg-opacity-25 " id="inputnome" placeholder="|Qual o nome da criança?">
+          </div>
+          <div class="col-12 ms-5 ">
+            <label for="inputcpf" class="form-label col-12" style="color: #57534E;">Data de nascimento</label>
+            <input type="date" class="form-control-lg col-10"  id="inputcpf" placeholder="06/05/2019">
+          </div>
+          <div class="col-12 ms-5">
+            <label for="inputestado" class="form-label col-12" style="color: #57534E;">Sexo</label>
+            <select id="inputestado" class="form-select-lg col-10">
+              <option selected>Feminino...</option>
+              <option>...</option>
+            </select>
+          </div>
+          <div class="col-12 ms-5">
+            <label for="inputnascimento" class="form-label col-12" style="color: #57534E;">Informações médicas</label>
+            <textarea class="form-control-lg col-10 text-dark bg-white " id="exampleFormControlTextarea1" placeholder="Ela tem alergia a glúten"></textarea>
+
+          </div>
+          <div class="row g-3 ms-5 ">
+            <label for="inputcpf" class="form-label col-12" style="color: #57534E;">Certidão de nascimento</label>
+          
+           <img class="file-upload-wrapper col-10" src="baixar.png" alt="upload">
+          </div>
+          <div class="row">
+            <h2 class="col-12 mt-5 ms-5 " style="font-size: 30x; ">Endereço residencial</h2>
+          
+          </div>
+         
+        <div class="col-md-12 ms-5">
+            <label for="inputnome" class="form-label col-12" style="color: #57534E;">CEP</label>
+            <input type="text" class="form-control-lg col-10  " id="inputnome" placeholder="01234-567">
+          </div>
+          <div class="col-12 ms-5">
+            <label for="inputcpf" class="form-label col-12" style="color: #57534E;">Rua</label>
+            <input type="text" class="form-control-lg col-10  bg-secondary bg-opacity-25" id="inputcpf" placeholder="Rua das Flores">
+          </div>
+          <div class="col-12 ms-5">
+            <label for="inputcpf" class="form-label col-12" style="color: #57534E;">Número</label>
+            <input type="text" class="form-control-lg col-10" id="inputcpf" placeholder="123">
+          </div>
+          <div class="col-12 ms-5">
+            <label for="inputnascimento" class="form-label col-12" style="color: #57534E;">Cidade</label>
+            <input type="text" class="form-control-lg col-10  bg-secondary bg-opacity-25" id="inputcpf" placeholder="São Paulo">
+
+          </div>
+          <div class="col-12 ms-5">
+            <label for="inputcpf" class="form-label col-12" style="color: #57534E;">Estado</label>
+            <input type="text" class="form-control-lg col-10  bg-secondary bg-opacity-25" id="inputcpf" placeholder="SP">
+          </div>
+          <div class="row">
+            <h2 class="col-12 mt-5 ms-5 " style="font-size: 30x; ">Informações do responsável</h2>
+          
+          </div>
+         
+        <div class="col-md-12 ms-5"> 
+            <label for="inputnome" class="form-label col-12" style="color: #57534E;">Nome do responsável</label>
+            <input type="text" class="form-control-lg col-10 " id="inputnome" placeholder="Miguel Roberto Alves">
+            <label for="inputnome" class="form-label col-10 mt-2" style="font-size: 20px;font-weight: 600px;font-family: poppins;">Principal responsável legal e contato de emergência</label>
+          </div>
+          <div class="col-12 ms-5">
+            <label for="inputcpf" class="form-label col-12" style="color: #57534E;">Telefone </label>
+            <input type="tel" class="form-control-lg col-10" id="inputcpf" placeholder="(10) 9 8765-4321">
+          </div>
+          <div class="col-12 ms-5">
+            <label for="inputcpf" class="form-label col-12" style="color: #57534E;">E-mail</label>
+            <input type="email" class="form-control-lg col-10" style="border: 1px solid #DC2626;" id="inputcpf" placeholder="papailegal123">
+            <label for="inputcpf" class="form-label col mt-2" style="color: #DC2626;"><img src="alerta.png" alt=""> Insira um e-mail válido</label>
+          </div>
+          <div class="row ">
+            <h2 class="col-12 mt-5 ms-5  " style="font-size: 30x; ">Opções de matrícula</h2>
+            <p class="col-12 ms-5 mt-3" style="color: #57534E;font-size: 26px;font-family: poppins;font-weight: 600px;">Selecione o turno de estudo</p>
+          
+         
+          </div>
+          <div class="turno row text-center  ">
+          <div class="card  ms-5 g-3 text-center m-auto " style="width: 230px;height: 180px;">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <div class="card-body text-center">
+              <img style="width: 48px;height: 48px;" src="manha.png"class="card-img-top" alt="">
+              <label for="inputmanha" class="form-label col-12 " style="font-size: 26px;">Manhã </label>
+
+            </div>
+          </div>
+          <div class="card  ms-5 g-3 text-center m-auto " style="width: 230px;height: 180px;">
+            <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+            <div class="card-body text-center">
+              <img style="width: 48px;height: 48px;" src="sol.png"class="card-img-top " alt="">
+              <label for="inputtarde" class="form-label col-12" style="font-size: 26px;">Tarde </label>
+
+            </div>
+          </div>
+        </div>
+          <div class="row text-center">
+            <p class="col-12 ms-5 g-3 mt-4" style="color: #57534E;font-size: 26px;font-family: poppins;text-align: left;width: 500px;font-weight: 400px;letter-spacing: 0%">Em qual esporte você gostaria de inscrever seu filho?</p>
+  
+          <div class="card  ms-5 g-3 mt-4 m-auto" style="width: 230px;height: 180px">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <div class="card-body text-center">
+              <img style="width: 48px;height: 48px;" src="futebol.png"class="card-img-top" alt="">
+              <label for="inputfutebol" class="form-label col-12"  style="font-size: 26px;">Futebol</label>
+
+            </div>
+          </div>
+          <div class="card  ms-5 g-3 mt-4 text-center m-auto" style="width: 230px;height: 180px">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <div class="card-body text-center">
+              <img style="width: 48px;height: 48px;" src="basquete.png"class="card-img-top" alt="">
+              <label for="inputbasquete" class="form-label col-12"  style="font-size: 26px;">Basquete</label>
+
+            </div>
+          </div>
+          <div class="card ms-5 g-3 mt-4 text-center m-auto" style="width: 230px;height: 180px">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <div class="card-body text-center">
+              <img style="width: 48px;height: 48px;" src="natacao.png"class="card-img-top" alt="">
+              <label for="inputnatacao" class="form-label col-12"  style="font-size: 26px;">Natação</label>
+
+            </div>
+          </div>
+          <div class="card ms-5 g-3 mt-4 text-center m-auto" style="width: 230px;height: 180px">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <div class="card-body text-center">
+              <img style="width: 48px;height: 48px;" src="yoga.png"class="card-img-top" alt="">
+              <label for="inputyoga" class="form-label col-12"  style="font-size: 26px;">Yoga</label>
+
+            </div>
+          </div>
+          <div class="card ms-5 g-3 mt-4 text-center m-auto" style="width: 230px;height: 180px">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <div class="card-body text-center">
+              <img style="width: 48px;height: 48px;" src="volei.png"class="card-img-top" alt="">
+              <label for="inputvolei" class="form-label col-12"  style="font-size: 26px;">Volei</label>
+
+            </div>
+          </div>
+          <div class="card ms-5 g-3 mt-4 text-center m-auto" style="width: 230px;height: 180px">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <div class="card-body text-center">
+              <img style="width: 48px;height: 48px;" src="boxe.png"class="card-img-top" alt="">
+              <label for="inputboxe" class="form-label col-12"  style="font-size: 26px;">Boxe</label>
+
+            </div>
+          </div>
+        </div>
+          <div class="form-check text-center mt-5 m-auto">
+         
+            <input class="form-check-input col-1  ms-5 m-auto" type="checkbox" value="" id="flexCheckDefault" style="width: 25px;height: 25px;">
+            <label class="form-check-label col-10 m-auto  " style="font-size: 23px;margin: 0 auto;text-align: left;" for="flexCheckDefault">
+              Declaro que li e concordo com os Termos e Condições e com a Política de Privacidade da escola Estrela do Amanhã. 
+            </label>
+          </div>
+        
+         <div class="text-center">
+           <div class="resposta m-auto mt-3">
+            <button type="button" class="btn btn-outline-danger col-8"style="height: 60px;">Salvar respostas</button>
+           </div>
+          <div class="matricula m-auto mt-3">
+            <button type="button" class="btn btn-danger col-8" style="height: 60px;">Fazer matrícula</button>
+          </div>
+        </div>
+          </form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</div>
+</div>
+</body>
+</html>
+

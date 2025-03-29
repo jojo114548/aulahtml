@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form >
+        <h1>Salario atual (reajuste)</h1>
+        <label for="">Digite seu salario :</label>
+        <input type="text" class="valor" >
+        <button onclick="reajuste()">Enviar</button>
+    </form>
+
+    <script>
+     function reajuste(salarioatual){
+      salarioatual=parseFloat(document.querySelector("input.valor").value);
+       
+     var percentual=0
+     var aumento=0;
+    var aumento=salarioatual*percentual/100;
+    var novosalario=salarioatual+aumento;
+
+     if(salarioatual<=280){          
+      percentual=20
+      aumento=salarioatual*percentual/100;
+      novosalario=salarioatual+aumento;
+      alert("Salario antes do reajuste: R$ "+salarioatual);
+      alert("percentual de aumento:"+percentual,"%");
+      alert("valor do aumento:R$"+aumento);
+      alert("Novo salario:R$"+novosalario);
+
+     }
+     else if(salarioatual==281||salarioatual<=700){
+       percentual=15
+       aumento=salarioatual*percentual/100;
+      novosalario=salarioatual+aumento;
+      alert("Salario antes do reajuste: R$ "+salarioatual);
+      alert("percentual de aumento:"+percentual,"%");
+      alert("valor do aumento:R$"+aumento);
+      alert("Novo salario:R$"+novosalario);
+     }
+     else if(salarioatual==701 || salarioatual <=1500){
+     percentual=10
+     aumento=salarioatual*percentual/100;
+      novosalario=salarioatual+aumento;
+      alert("Salario antes do reajuste: R$ "+salarioatual);
+      alert("percentual de aumento:"+percentual,"%");
+      alert("valor do aumento:R$"+aumento);
+      alert("Novo salario:R$"+novosalario);
+     }
+     else if(salarioatual>1500){
+ percentual=5
+ aumento=salarioatual*percentual/100;
+      novosalario=salarioatual+aumento;
+      alert("Salario antes do reajuste: R$ "+salarioatual);
+      alert("percentual de aumento:"+percentual,"%");
+      alert("valor do aumento:R$"+aumento);
+      alert("Novo salario:R$"+novosalario);
+     }
+     }
+   
+    </script>
+</body>
+</html>

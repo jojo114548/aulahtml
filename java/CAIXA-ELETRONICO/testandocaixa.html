@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>teste </h1>
+  <form action="">
+    <label for="">Digite o valor</label>
+    <input type="text" id="valor">
+    <button onclick="dinheiro()">Enviar</button>
+   
+</form>
+    <script>
+      
+        function dinheiro(){
+
+       var valorNotas=parseInt(document.querySelector("#valor").value);
+       var valorpequeno=parseInt(valorNotas);
+     
+
+
+       if(valorpequeno>=10&&valorpequeno<50){
+
+        if(valorpequeno>=10){
+
+        var notadez=parseInt(valorpequeno/10);
+        var restodez= parseInt(valorpequeno%10);
+        
+       
+
+}       if(valorpequeno>=5){
+    var notacinco=parseInt(restodez/5);
+    var restocinco= parseInt(restodez%5);
+    
+}
+if(valorNotas>=1){
+
+var notareal=parseInt(restocinco)
+    
+   
+
+}
+
+ alert(`Nota de 10 reais:${notadez} \nNota de 5 reais : ${notacinco}\nNota de 1 real :${notareal}`);
+       }
+    
+
+
+
+
+       if(valorNotas>=50 &&valorNotas<=600){
+
+       if(valorNotas>=100){
+
+        var notacem=parseInt(valorNotas/100);
+        var restocem= parseInt(valorNotas%100);
+
+       
+
+ 
+              }
+        if(valorNotas>=50){
+
+        var notacinquenta=parseInt(restocem/50);
+        var restocinquenta= parseInt(restocem%50);
+
+
+
+             }
+         if(valorNotas>=20){
+
+       var notavinte=parseInt(restocinquenta/20);
+       var restovinte= parseInt(restocinquenta%20);
+
+
+
+            }
+
+       if(valorNotas>=10){
+
+       var notadez=parseInt(restovinte/10);
+       var restodez= parseInt(restovinte%10);
+
+
+            }
+        if(valorNotas>=5){
+
+       var notacinco=parseInt(restodez/5);
+       var restocinco= parseInt(restodez%5);
+
+
+           }
+
+       if(valorNotas>=1){
+
+       var notareal=parseInt(restocinco)
+      
+
+          }
+      alert(`Nota de 100 reais :${notacem} \nNota de 50 reais :${notacinquenta}\n Nota de 20 reais: ${notavinte} \nNota de 10 reais :${notadez} \nNota de 5 reais :${notacinco} \nNota de 1 real: ${notareal}`);
+       }
+      else if(valorNotas<10||valorNotas>600){
+      alert("Valor indisponivel,digite novamente ");
+          }
+   
+        }
+</script>
+</body>
+</html>
